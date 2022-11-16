@@ -1,0 +1,24 @@
+while true do
+function changeTransparency (Part,newTransparency)
+    Part.Transparency = newTransparency
+end
+
+
+changeTransparency(game.Workspace.Part,1)
+
+wait(0.5)
+
+changeTransparency(game.Workspace.Part,0.75)
+
+wait(0.5)
+
+changeTransparency(game.Workspace.Part,0.5)
+
+wait(0.5)
+
+changeTransparency(game.Workspace.Part,0.25)
+
+wait(0.5)
+
+changeTransparency(game.Workspace.Part,0)
+wait()
